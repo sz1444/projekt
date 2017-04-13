@@ -16,10 +16,9 @@ closeGallery.addEventListener('click', close);
 
 function write(){
    screenImg.src=this.src;
-   if(innerWidth>800){
+    if(innerWidth>800){
     galleryDisplay.style.display="block";
      }
-     
 }
 
 
@@ -60,7 +59,7 @@ function validation(){
         input.classList.add("error");
     } else {
         input.setCustomValidity('');
-         input.classList.remove("error");
+         email.classList.remove("error");
     }
     
     if(email.value.match(reg)==null){
@@ -75,21 +74,29 @@ function validation(){
 
 
 var menu = document.querySelector('#menu');
-
-
+var menuEl = document.querySelectorAll('nav ul li');
+var nav = document.querySelector('nav');
 menu.addEventListener("click", mobileMenu);
+
+for(i=0;i<menuEl.length; i++){
+menuEl[i].addEventListener('click', moblieDisplayNone);
+}
+
 
 
 function mobileMenu() {
-   var a = document.querySelector('nav');
+  
    
-   if (a.style.display !== 'block') {
-      a.style.display = "block"
+   if (nav.style.display !== 'block') {
+      nav.style.display = "block";
    } else {
-      a.style.display = "none"
+      nav.style.display = "none";
    }
 }
 
+function moblieDisplayNone(){
+    nav.style.display = "none";
+}
 /* Smooth scrolling
    Changes links that link to other parts of this page to scroll
    smoothly to those links rather than jump to them directly, which
