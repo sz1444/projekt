@@ -60,7 +60,7 @@ function validation(){
         input.classList.add("error");
     } else {
         input.setCustomValidity('');
-         email.classList.remove("error");
+         input.classList.remove("error");
     }
     
     if(email.value.match(reg)==null){
