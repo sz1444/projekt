@@ -95,7 +95,8 @@ function mobileMenu() {
 }
 
 function moblieDisplayNone(){
-    nav.style.display = "none";
+	 if(innerWidth>800){
+    nav.style.display = "none";}
 }
 /* Smooth scrolling
    Changes links that link to other parts of this page to scroll
