@@ -52,7 +52,7 @@ function validation(){
         name.classList.add("error");
     } else {
         name.setCustomValidity('');
-         email.classList.remove("error");
+         name.classList.remove("error");
     }
     
     if(input.value.length<1){
