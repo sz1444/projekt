@@ -407,6 +407,7 @@ form input{
     margin:0 auto;
     background-color: #ddd;
     padding: 5px 0;
+    border:0;
 }
 
 form input:focus{
@@ -422,6 +423,7 @@ textarea{
     margin:20px auto;
    background-color: #ddd;
     resize: none;
+    border:0;
 }
 
 textarea:focus{
