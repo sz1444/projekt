@@ -83,7 +83,7 @@ menu.addEventListener("click", mobileMenu);
 function mobileMenu() {
    var a = document.querySelector('nav');
    
-   if (a.style.display == 'none') {
+   if (a.style.display !== 'block') {
       a.style.display = "block"
    } else {
       a.style.display = "none"
