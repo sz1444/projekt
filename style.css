@@ -119,9 +119,7 @@ header p{
 header button{
     padding: 15px 100px;
     margin-top: 40px;
-    border:1px solid #111;
-    border-top:1px solid #222;
-    border-left:1px solid #222;
+    border:0px;
     background-color: rgb(26, 26, 26);
     color:#fff;
     font-weight: bold;
@@ -130,9 +128,6 @@ header button{
 
 header button:hover{
     background-color: #0f0f0f;
-  border:1px solid #111;
-    border-top:1px solid  #222;
-    border-left:1px solid  #222;
     cursor:pointer;
 }
 
@@ -444,18 +439,12 @@ form #send{
     background-color: #00d349;
     color:#fff;
     font-weight: bold;
-    border:1px solid #007428;
-    border-top:1px solid #00ff58;
-    border-left:1px solid #00ff58;
     transition-duration: 0.3s;
     margin: 20px auto;
 }
 
 form #send:hover{
    background-color: #00ba41; 
-     border:1px solid #00ff58;
-     border-top:1px solid #007428;
-    border-left:1px solid #007428;
     cursor:pointer;
     
 }
