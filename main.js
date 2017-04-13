@@ -95,7 +95,7 @@ function mobileMenu() {
 }
 
 function moblieDisplayNone(){
-	 if(innerWidth>800){
+	 if(innerWidth<800){
     nav.style.display = "none";}
 }
 /* Smooth scrolling
