@@ -232,6 +232,6 @@ setInterval('ss.scrollWindow('+ss_stepsize+','+desty+',"'+anchor+'")',10);
   } 
 }
 
-ss.STEPS = 25;
+ss.STEPS = 99;
 
 ss.addEvent(window,"load",ss.fixAllLinks);
