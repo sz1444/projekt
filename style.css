@@ -375,7 +375,7 @@ ul li img:hover{
    
 }
 
-#contakt{
+#contact{
     background-image: url(formbgc.jpg);
     background-repeat: no-repeat;
     -webkit-background-size:cover;
@@ -384,7 +384,7 @@ ul li img:hover{
     height:100%;
 }
 
-#contakt h2{
+#contact h2{
     color:#fff;
     text-shadow: 1px 1px 0 #000;
     padding: 50px 0;
