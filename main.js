@@ -16,7 +16,9 @@ closeGallery.addEventListener('click', close);
 
 function write(){
    screenImg.src=this.src;
+   if(innerWidth>800){
     galleryDisplay.style.display="block";
+     }
      
 }
 
